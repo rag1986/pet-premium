@@ -1,0 +1,81 @@
+@import "../../variable.scss";
+
+.successsection {
+    padding: 35px 0 0;
+    .succimg{
+        text-align: center;
+    }
+   
+    h3 {
+        color: $green;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        margin: 0;
+        font-family: $fontfamily;
+    }
+    p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: $primary_color;
+        padding: 9px 0;
+        text-align: center;
+        margin: 0;
+        font-family: $fontfamily;
+    }
+    .policyid {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: $primary_color;
+        text-align: center;
+        font-family: $fontfamily;
+    }
+    .planbox {
+        margin-top: 15px;
+        padding: 0 33px;
+        background-color: $white;
+        h4 {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+            color: $violet;
+            padding: 15px 0 5px;
+            margin: 0;
+            font-family: $fontfamily;
+        }
+        .summarylist{
+            display: flex;
+         flex-direction: column;
+            .listouter{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding: 5px 0;
+                .listleft{
+                    width: 50%;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    font-family: $fontfamily;
+                }
+                .listright{
+                    width: 50%;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    font-family: $fontfamily;
+                    &.bold{
+                        font-weight: 600;
+                    }
+                }
+            }
+           
+        }
+     
+    }
+}

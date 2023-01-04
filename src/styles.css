@@ -1,0 +1,35 @@
+body {
+  width: 100%;
+  height: auto;
+  font-family: "Poppins", sans-serif !important;
+  background-color: #F5F5F5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 420px;
+  min-width: 300px;
+}
+
+.fieldstyle {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #D9D9D9;
+  height: 50px;
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */

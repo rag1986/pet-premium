@@ -1,0 +1,55 @@
+@import '../../variable.scss';
+
+
+
+
+
+.errorsection{
+    width: 100%;
+    padding: 34px 0 16px;
+    text-align: center;
+    h3 {
+        color: #FF6B00;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        margin: 0;
+        padding-top: 20px;
+        font-family: $fontfamily;
+    }
+}
+
+.dogsection{
+    width: 100%;
+    padding: 40px 0;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+margin: 0;
+padding: 40px 0 30px;
+font-family: $fontfamily;
+    }
+    .refresh{
+        font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+color: $white;
+background-color: $violet;
+padding: 10px 15px;
+border-radius: $bigradius;
+text-decoration: none;
+margin-bottom: 30px;
+font-family: $fontfamily;
+    }
+  
+}
+

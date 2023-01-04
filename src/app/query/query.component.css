@@ -1,0 +1,66 @@
+.petsection {
+  width: 100%;
+  padding: 16px 30px 10px;
+}
+.petsection h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+}
+.petsection p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  padding-top: 10px;
+}
+
+.search {
+  background-color: #fff;
+  margin: 0 30px;
+  padding: 20px;
+}
+.search .fieldout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+.search .fieldout label {
+  font-weight: 400;
+  font-size: 15px;
+  color: #000;
+  margin: 10px 0 8px;
+}
+.search .fieldout .box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.search .fieldout .box .boxin {
+  width: 120px;
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #000;
+}
+.search .fieldout .box .boxin span {
+  margin-left: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #702C90;
+}
+.search .quote {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #000;
+  background-color: #702C90;
+  padding: 12px 95px;
+  margin: 28px 0 15px;
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}/*# sourceMappingURL=query.component.css.map */

@@ -1,0 +1,70 @@
+.successsection {
+  padding: 35px 0 0;
+}
+.successsection .succimg {
+  text-align: center;
+}
+.successsection h3 {
+  color: #03A700;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0;
+}
+.successsection p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000;
+  padding: 9px 0;
+  text-align: center;
+  margin: 0;
+}
+.successsection .policyid {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000;
+  text-align: center;
+}
+.successsection .planbox {
+  margin-top: 15px;
+  padding: 0 33px;
+  background-color: #fff;
+}
+.successsection .planbox h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #702C90;
+  padding: 15px 0 5px;
+  margin: 0;
+}
+.successsection .planbox .summarylist {
+  display: flex;
+  flex-direction: column;
+}
+.successsection .planbox .summarylist .listouter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+.successsection .planbox .summarylist .listouter .listleft {
+  width: 50%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.successsection .planbox .summarylist .listouter .listright {
+  width: 50%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.successsection .planbox .summarylist .listouter .listright.bold {
+  font-weight: 600;
+}/*# sourceMappingURL=payment-success.component.css.map */

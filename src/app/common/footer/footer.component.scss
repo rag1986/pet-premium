@@ -1,0 +1,19 @@
+@import '../../../variable.scss';
+
+.footersection{
+    width: 100%;
+    background-color:  $primary_color;
+    padding: 10px 30px;
+    p{
+        color:$white;
+        font-weight: 300;
+        font-size: 10px;
+        margin: 0;
+        a{
+           color: $white;
+            font-weight: 300;   
+            font-size: 10px;
+            margin: 0;
+        }
+    }
+}

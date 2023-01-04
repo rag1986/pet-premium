@@ -1,0 +1,44 @@
+.errorsection {
+  width: 100%;
+  padding: 34px 0 16px;
+  text-align: center;
+}
+.errorsection h3 {
+  color: #FF6B00;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.dogsection {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dogsection p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  margin: 0;
+  padding: 40px 0 30px;
+}
+.dogsection .refresh {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+  background-color: #702C90;
+  padding: 10px 15px;
+  border-radius: 100px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=error.component.css.map */

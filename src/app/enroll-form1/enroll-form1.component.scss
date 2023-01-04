@@ -1,0 +1,166 @@
+@import "../../variable.scss";
+
+.enrollsection {
+    width: 100%;
+
+    h5 {
+        font-weight: 700;
+        font-size: 18px;
+        color: $primary_color;
+        text-align: center;
+        padding: 15px 0;
+        font-family: $fontfamily;
+    }
+}
+.formsection {
+    margin: 0 10px 15px;
+    background-color: $white;
+    padding: 10px 30px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.160784);
+    border-radius: $radius;
+    .formhead {
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        color: $violet;
+        padding: 8px 0 16px;
+        font-family: $fontfamily;
+    }
+    .formout {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 12px;
+        label {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: $primary_color;
+            margin-bottom: 6px;
+            font-family: $fontfamily;
+        }
+        .checkboxdiv{
+            width: 100%;
+            padding: 5px 0;
+        }
+    }
+  
+    .paymentbox {
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        .payment {
+            background: $green;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: $bigradius;
+            padding: 10px 15px;
+            text-align: center;
+            font-weight: 500;
+            font-size: 14px;
+            font-family: $fontfamily;
+            color: $white;
+            position: relative;
+            width: fit-content;
+            text-decoration: none;
+        }
+        &::before {
+            position: absolute;
+            content: "";
+            height: 1px;
+            background-color: #b1b1b1;
+            left: 0;
+            right: 0;
+            top: 50%;
+            z-index: 0;
+        }
+    }
+    .billsection {
+   
+        .check2 {
+            padding:15px 0 20px;
+    
+            label {
+                font-size: 12px;
+                font-weight: 300;
+            }
+        }
+        .formhead {
+            text-align: center;
+            font-weight: 500;
+            font-size: 16px;
+            color: $violet;
+            font-family: $fontfamily;
+            padding: 8px 0 16px;
+        }
+        .formout {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 12px;
+            label {
+                font-weight: 500;
+                font-size: 14px;
+              line-height: 21px;
+                color: $primary_color;
+                margin-bottom: 6px;
+                font-family: $fontfamily;
+            }
+        }
+        .cvv {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            .formout {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 12px;
+                label {
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: $primary_color;
+                    margin-bottom: 6px;
+                }
+            }
+        }
+        .submitbox {
+            width: calc(100% + 60px);
+            display: flex;
+            padding: 6px 30px;
+            margin: 20px 0;
+            justify-content: space-between;
+            background-color: #f5f5f5;
+            margin-left: -30px;
+            margin-right: -30px;
+            .doller {
+                font-weight: 600;
+                font-size: 18px;
+                color: $violet;
+                font-family: $fontfamily;
+                span {
+                    color: black;
+                    font-weight: 400;
+                    font-size: 14px;
+                    font-family: $fontfamily;
+                }
+            }
+            .submit {
+                background-color: $violet;
+                width: fit-content;
+                box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.160784);
+                border-radius: $radius;
+                font-weight: 600;
+                font-size: 18px;
+                color: $white;
+                padding: 10px 30px;
+                text-align: center;
+                font-family: $fontfamily;
+            }
+        }
+    }
+}
+

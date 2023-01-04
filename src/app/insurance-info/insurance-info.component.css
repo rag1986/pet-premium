@@ -1,0 +1,37 @@
+.infosection {
+  background-color: #fff;
+  padding: 0 10px;
+  margin: 0 30px 10px;
+}
+.infosection h6 {
+  font-weight: 600;
+  font-size: 15px;
+  color: #000;
+  text-align: center;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #B1B1B1;
+}
+.infosection .infopara {
+  padding: 12px 20px;
+}
+.infosection .infopara ul {
+  padding-left: 30px;
+}
+.infosection .infopara ul li {
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+.infosection .infopara p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+.infosection .quest ul li {
+  list-style: none;
+  padding: 14px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000;
+  border-top: 1px solid #B1B1B1;
+}/*# sourceMappingURL=insurance-info.component.css.map */

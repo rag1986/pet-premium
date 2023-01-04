@@ -1,0 +1,67 @@
+@import '../../variable.scss';
+
+
+
+.failedsection{
+    width: 100%;
+    padding: 34px 0 16px;
+    text-align: center;
+    h3 {
+        color: #FF0000;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        margin: 0;
+        padding-top: 20px;
+        font-family: $fontfamily;
+    }
+}
+.cardsection{
+    width: 100%;
+    padding: 40px 0;
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p{
+        font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+margin: 0;
+padding: 30px 0;
+font-family: $fontfamily;
+    }
+    .payment{
+        font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+color: $white;
+background-color: $violet;
+padding: 10px 15px;
+border-radius: $bigradius;
+text-decoration: none;
+margin-bottom: 30px;
+font-family: $fontfamily;
+    }
+    .try{
+        font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+
+color: #484848;
+border-radius: $bigradius;
+background-color: #E8E8E8;
+padding: 10px 22px;
+text-decoration: none;
+font-family: $fontfamily;
+    }
+}
+
+
+
+

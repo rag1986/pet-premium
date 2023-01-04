@@ -1,0 +1,48 @@
+@import "../../variable.scss";
+
+.infosection {
+    background-color:$white;
+    padding: 0 10px;
+    margin: 0 30px 10px;
+    h6 {
+        font-weight: 600;
+        font-size: 15px;
+        color: $primary_color;
+        text-align: center;
+        padding-bottom: 14px;
+        border-bottom: 1px solid #B1B1B1;
+        font-family: $fontfamily;
+    }
+    .infopara {
+        padding: 12px 20px;
+        ul {
+            padding-left: 30px;
+            li {
+                font-weight: 400;
+                font-size: 15px;
+                font-family: $fontfamily;
+                margin-bottom: 8px;
+            }
+        }
+        p {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            font-family: $fontfamily;
+        }
+    }
+.quest{
+    ul{
+        li{
+            list-style: none;
+            padding: 14px ;
+            font-weight: 600;
+font-size: 15px;
+color: $primary_color;
+border-top: 1px solid #B1B1B1;
+font-family: $fontfamily;
+
+        }
+    }
+}
+}

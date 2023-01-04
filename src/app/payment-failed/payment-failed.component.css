@@ -1,0 +1,55 @@
+.failedsection {
+  width: 100%;
+  padding: 34px 0 16px;
+  text-align: center;
+}
+.failedsection h3 {
+  color: #FF0000;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.cardsection {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardsection p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  margin: 0;
+  padding: 30px 0;
+}
+.cardsection .payment {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+  background-color: #702C90;
+  padding: 10px 15px;
+  border-radius: 100px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.cardsection .try {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #484848;
+  border-radius: 100px;
+  background-color: #E8E8E8;
+  padding: 10px 22px;
+  text-decoration: none;
+}/*# sourceMappingURL=payment-failed.component.css.map */
