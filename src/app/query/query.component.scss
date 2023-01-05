@@ -2,12 +2,13 @@
 
 .petsection {
     width: 100%;
-    padding: 16px 30px 10px;
+    padding: 16px 0;
     h2 {
         color: $primary_color;
         font-size: 40px;
         font-weight: 500;
         font-family: $fontfamily;
+        margin: 0;
     }
     p {
         font-size: 15px;
@@ -15,12 +16,12 @@
         color: $primary_color;
         padding-top: 10px ;
         font-family: $fontfamily;
+        margin: 0;
     }
 }
 .search {
     background-color:$white;
-    margin: 0 30px;
-    padding: 20px;
+    padding: 20px 15px;
 
     .fieldout {
         width: 100%;
@@ -41,7 +42,7 @@
             .boxin {
                 width: 120px;
                 background-color: $white;
-                padding: 15px 20px;
+                padding: 15px 0px;
                 border-radius: $radius;
                 display: flex;
                 justify-content: center;
@@ -54,6 +55,47 @@
                     color: $violet;
                     font-family: $fontfamily;
                 }
+                .icon{
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 0px;
+                    &.dog{
+                        background-image: url(../../assets/images/dog.png);
+                        background-repeat: no-repeat;
+                    }
+                    &.cat{
+                        background-image: url(../../assets/images/cat.png);
+                        background-repeat: no-repeat;
+                    }
+                    &.male{
+                        background-image: url(../../assets/images/male.png);
+                        background-repeat: no-repeat;
+                    }
+                    &.female{
+                        background-image: url(../../assets/images/female.png);
+                        background-repeat: no-repeat;
+                    }
+                }
+                &:hover, :focus{
+                    background-color: #702C90;
+                    .icon{
+                        &.dog{
+                                background-image: url(../../assets/images/dog-1.png);
+                        }
+                        &.cat{
+                                background-image: url(../../assets/images/cat-1.png);
+                        }
+                        &.male{
+                                background-image: url(../../assets/images/male-1.png);
+                        }
+                        &.female{
+                                background-image: url(../../assets/images/female-1.png);
+                        }
+                    }
+                    span{
+                        color: #fff;
+                    }
+                }
             }
         }
     }
@@ -63,13 +105,14 @@
         text-align: center;
         border: 1px solid #000;
         background-color: $violet;
-        padding: 12px 95px;
+        padding: 12px 0px;
         margin: 28px 0 15px;
         border-radius: $bigradius;
         font-weight: 700;
         font-size: 18px;
         color: $white;
         font-family: $fontfamily;
+        text-align: center;
         
     }
 }

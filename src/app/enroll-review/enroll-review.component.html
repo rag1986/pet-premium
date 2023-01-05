@@ -6,40 +6,194 @@
             <div class="overviewin">
                 <div class="overhead">
                     <div class="overleft">Overview</div>
-                    <div class="overright"><img src="../../assets/images/edit.png" alt="">
+                    <a href="" class="overright">
+                        <img src="../../assets/images/edit.png" alt="">
                         <div class="edit">Edit</div>
-                    </div>
+                    </a>
                 </div>
                 <div class="overbtm">
+                    <div class="enrollhead">
                     <img src="../../assets/images/aspca.png" alt="">
+
+                    <h2>Complete Coverage</h2>
+                    <span class="tag">Accident+Illness</span>
+                    </div>
+
+                   <div class="petdetails">
+                    <mat-accordion>
+                        <mat-expansion-panel (opened)="panelOpenState = true"
+                                             (closed)="panelOpenState = false">
+                          <mat-expansion-panel-header>
+                            <mat-panel-title>
+                             
+                                <div class="headerdetails">
+                                    <div class="headleft"><img src="../../assets/images/dog-img.png" alt=""></div>
+                                    <div class="headright">
+                                        <h4>Tommy</h4>
+                                        <p>1 Year | Male | Pug | 60606</p>
+                                    </div>
+                                </div>
+                            </mat-panel-title>
+
+                          </mat-expansion-panel-header>
+                          
+
+                            <div class="coveragelist">
+                                <div class="covlistin">
+                                    <div class="covlistleft">Coverage :</div>
+                                    <div class="covlistright">$1000</div>
+                                </div>
+                                <div class="covlistin">
+                                    <div class="covlistleft">Reimbursement :</div>
+                                    <div class="covlistright">70%</div>
+                                </div>
+                                <div class="covlistin">
+                                    <div class="covlistleft">Deductible :</div>
+                                    <div class="covlistright">$100</div>
+                                </div>
+                                <div class="covlistin">
+                                    <div class="covlistleft">Incident :</div>
+                                    <div class="covlistright">None</div>
+                                </div>
+                                <div class="addhead">Add-Ons</div>
+
+                                <div class="covlistin btmbord">
+                                    <div class="covlistleft">
+                                        
+                                        <span class="checkboxdiv">
+                                            <mat-checkbox>None</mat-checkbox>
+                                        </span></div>
+                                    <div class="covlistright">$100</div>
+                                </div>
+
+                                <div class="covlistin btmbord">
+                                    <div class="covlistleft">
+                                        
+                                        <span class="checkboxdiv">
+                                            <mat-checkbox>Basic Preventive Care</mat-checkbox>
+                                        </span></div>
+                                    <div class="covlistright">$100</div>
+                                </div>
+
+                                <div class="openlist">
+                                    <div class="limibtn">Coverage Limit</div>
+                                    <div class="openlist-box">
+                                        <div class="covlistleft">Coverage :</div>
+                                        <div class="covlistright">$1000</div>
+                                    </div>
+                                    <div class="openlist-box">
+                                        <div class="covlistleft">Dental Cleaning :</div>
+                                        <div class="covlistright">$1000</div>
+                                    </div>
+                                    <div class="openlist-box">
+                                        <div class="covlistleft">Wellness Exam :</div>
+                                        <div class="covlistright">$1000</div>
+                                    </div>
+                                    <div class="openlist-box">
+                                        <div class="covlistleft">Deworming :</div>
+                                        <div class="covlistright">$1000</div>
+                                    </div>
+
+                                    <div class="openlist-box">
+                                        <div class="covlistleft">DHLPP Vaccine/Titer :</div>
+                                        <div class="covlistright">$1000</div>
+                                    </div>
+                                    <div class="openlist-box">
+                                        <div class="covlistleft">Rabies or Lyme Vaccine/Titer :</div>
+                                        <div class="covlistright">$1000</div>
+                                    </div>
+                                    <div class="openlist-box">
+                                        <div class="covlistleft">Fecal Test :</div>
+                                        <div class="covlistright">$1000</div>
+                                    </div>
+                                    <div class="openlist-box">
+                                        <div class="covlistleft">Heartworm Test :</div>
+                                        <div class="covlistright">$1000</div>
+                                    </div>
+                                </div>
+
+                                <div class="covlistin btmbord">
+                                    <div class="covlistleft">
+                                        
+                                        <span class="checkboxdiv">
+                                            <mat-checkbox>Standard Preventive Care</mat-checkbox>
+                                        </span></div>
+                                    <div class="covlistright">$100</div>
+                                </div>
+
+                                <div class="covlistin">
+                                    <div class="covlistleft">
+                                        
+                                        <span class="checkboxdiv">
+                                            <mat-checkbox>Prime Preventive Care</mat-checkbox>
+                                        </span></div>
+                                    <div class="covlistright">$100</div>
+                                </div>
+
+                                
+
+
+
+
+
+                              
+                                
+                            </div>
+                       
+              
+
+
+                        </mat-expansion-panel>
+                      </mat-accordion>
+                   </div>
+
+
                     <div class="plandetails">
+
                         <div class="planout">
-                            <div class="planleft">Plan Amount :</div>
+                            <div class="box">
+                                <div class="planleft">Plan Amount :</div>
                             <div class="planright">$13</div>
+                            </div>
                         </div>
+
                         <div class="planout">
-                            <div class="planleft">Add-On :<br> <span>None</span> </div>
+                            <div class="box">
+                            <div class="planleft">Add-On :</div>
                             <div class="planright">$0</div>
-                           
+                            </div>
+                            <div class="box">
+                                <div class="planleft sm-font">None :</div>
+                                <div class="planright sm-font">$0</div>
+                            </div>
                         </div>
+
                         <div class="planout">
-                            <div class="planleft">
-                                <span>Transaction Fee :</span><br>
-                                Monthly Total :
+
+                            <div class="box">
+                                <div class="planleft sm-font">Transaction Fee :</div>
+                                <div class="planright sm-font">$15</div>
                             </div>
-                            <div class="planright">
-                                <span>$2</span> <br>
-                                $15
+
+                            <div class="box">
+                            <div class="planleft">Monthly Total :</div>
+                            <div class="planright">$00</div>
                             </div>
+                           
                         </div>
                     </div>
                     <div class="proceed">Proceed</div>
-                    <p>Save and Email your Quote</p>
-                    <select name="" id="" class="overfieldstyle">
-                        <option value=""></option>
-                        <option value=""></option>
 
-                    </select>
+
+                    <div class="quotefield">
+                    <p>Save and Email your Quote</p>
+                    <div class="overfieldstyle">
+                        <input type="text" name="" id="" class="fieldstyle ">
+                        <button class="submitbtn"></button>
+                    </div>
+                    
+                </div>
+
                 </div>
 
             </div>

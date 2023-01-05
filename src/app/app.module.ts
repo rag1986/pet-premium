@@ -14,7 +14,6 @@ import { PaymentFailedComponent } from './payment-failed/payment-failed.componen
 import { MaterialModule } from './modules/material.module';
 import { ErrorComponent } from './error/error.component';
 import { EnrollReviewComponent } from './enroll-review/enroll-review.component';
-import { EnrollReview2Component } from './enroll-review2/enroll-review2.component';
 import { CompareComponent } from './compare/compare.component';
 
 @NgModule({
@@ -29,7 +28,6 @@ import { CompareComponent } from './compare/compare.component';
     PaymentFailedComponent,
     ErrorComponent,
     EnrollReviewComponent,
-    EnrollReview2Component,
     CompareComponent
   ],
   imports: [

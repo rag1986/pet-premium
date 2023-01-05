@@ -1,5 +1,6 @@
 @import "../../variable.scss";
 .enrollsec {
+    padding-bottom: 25px;
     h5 {
         font-weight: 700;
         font-size: 18px;
@@ -11,7 +12,6 @@
         font-family: $fontfamily;
     }
     .overviewsec {
-        margin: 0 18px 18px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         background-color: $white;
         border-radius: $radius;
@@ -22,7 +22,8 @@
             .overhead {
                 background-color: #b1f1ff;
                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                border-radius: 2px;
+                border-top-right-radius: 8px;
+                border-top-left-radius: 8px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -37,38 +38,199 @@
                 .overright {
                     display: flex;
                     flex-direction: column;
+                    text-decoration: none;
                     .edit {
                         font-weight: 500;
                         font-size: 10px;
                         line-height: 15px;
                         color: $violet;
                         font-family: $fontfamily;
+                        
                     }
                 }
             }
             .overbtm {
-                margin: 20px;
+                margin: 10px;
+                .enrollhead{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 15px 0 20px 0;
+                    h2{
+                        font-size: 18px;
+                        margin-top: 10px;
+                        margin-bottom:10;
+                        font-family: $fontfamily;
+                    }
+                    .tag{
+                        background: #84CC16;
+                        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.160784);
+                        border-radius: 2px;
+                        color: #000;
+                        font-weight: 500;
+                        font-size: 12px;
+                        font-family: $fontfamily;
+                        padding: 3px 10px;
+                    }
+                }
+           
+
+                .petdetails{
+                    width: 100%;
+                    padding-bottom: 15px;
+                    .headerdetails{
+                        width: 100%;
+                        display: flex;
+                        justify-content: flex-start;
+                        .headleft{
+                       width: 60px;
+                        }
+                        .headright{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            width: calc(100% - 60px);
+                            border-right: 2px solid #d3d1d1;
+                            h4{
+                                margin: 0;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 16px;
+                                font-family: $fontfamily;
+                            color: #000000;}
+                            p{
+                                margin: 0;
+                                font-family: $fontfamily;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 12px;
+                            color: #000;}
+                        }
+                    }
+     
+                        width: 100%;
+                        .coveragelist {
+                            border: 1px solid #f6e4ff;
+                            padding: 15px 10px;
+                            margin-bottom: 15px;
+                            .covlistin {
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                padding: 10px 0;
+                                &.btmbord{
+                                    border-bottom: 1px solid #AFAFAF;
+                                }
+                                .covlistleft {
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 21px;
+                                    font-family: $fontfamily;
+                                }
+                                .covlistright {
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 21px;
+                                    font-family: $fontfamily;
+                                }
+                            }
+
+                            .openlist{
+                                width: 100%;
+                                background: #F1EAF4;
+                                padding: 10px;
+                                margin-top: 5px;
+                                .limibtn{
+                                    background: #fff;
+                                    border: 1px solid #702C90;
+                                    padding: 10px 0;
+                                    text-align: center;
+                                    width: 100%;
+                                    border-radius: 2px;
+                                    margin-bottom: 5px;
+                                    font-weight: 600;
+                                    font-size: 14px;
+                                    color: #000;
+                                }
+                                .openlist-box {
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    padding: 10px 0;
+                                    .covlistleft {
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                        line-height: 21px;
+                                        font-family: $fontfamily;
+                                    }
+                                    .covlistright {
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                        line-height: 21px;
+                                        font-family: $fontfamily;
+                                    }
+                                }
+                            }
+                            .addhead {
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 24px;
+                                font-family: $fontfamily;
+                                margin-top: 10px;
+                            }
+                            .formout {
+                                width: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                margin-bottom: 12px;
+                                label {
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 21px;
+                                    color: $primary_color;
+                                    margin-bottom: 6px;
+                                    font-family: $fontfamily;
+                                }
+                                .checkboxdiv{
+                                    width: 100%;
+                                    padding: 8px 0;
+                             
+                                    border-bottom: 1px solid #AFAFAF;
+                                    &:last-child{border: none;}
+                                }
+                            }
+                           
+                        }
+                     
+
+                }
+
+
                 .plandetails {
-                    background-color: #f1eaf4;
+                    background-color: #F1EAF4;
                     padding: 0 9px;
                     margin-bottom: 20px;
 
                     .planout {
                         border-bottom: 1px solid #afafaf;
+                        flex-direction: column;
+                        padding: 10px 0;
+                       &:last-child{border:none}
+                       .box{
                         display: flex;
                         justify-content: space-between;
-                        padding: 14px 0;
-&:last-child{border:none}
+                        padding: 5px 0;
                         .planleft {
-                            font-weight: 500;
+                            font-weight: 600;
                             font-size: 14px;
                             font-family: $fontfamily;
                             line-height: 21px;
-                            color: $primary_color;
+                            color: #000;
                           
-                            span {
+                            &.sm-font {
                                 font-weight: 400;
-                                font-size: 10px;
+                                font-size: 12px;
                                 line-height: 15px;
                                 font-family: $fontfamily;
                                 margin: 0;
@@ -76,20 +238,24 @@
                             }
                         }
                         .planright {
-                            font-weight: 500;
+                            font-weight: 600;
                             font-size: 14px;
                             font-family: $fontfamily;
                             line-height: 21px;
                             color: $primary_color;
-                            span {
+                            &.sm-font{
                                 font-weight: 400;
-                                font-size: 10px;
+                                font-size: 12px;
                                 line-height: 15px;
                                 font-family: $fontfamily;
                             }
                         }
+                       }
+                        
                     }
                 }
+
+
                 .proceed {
                     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
                     border-radius: $radius;
@@ -102,6 +268,10 @@
                     color: $white;
                     font-family: $fontfamily;
                 }
+                .quotefield{
+                    display: flex;
+                    flex-direction: column;
+                    padding-top: 15px;
                 p {
                     font-weight: 500;
                     font-size: 14px;
@@ -111,14 +281,27 @@
                     padding: 9px 0;
                 }
                 .overfieldstyle{
-                    border-radius: 2px;
                     background-color:$white;
-                    padding: 5px;
-                    border: 1px solid $violet;
-                    height: 50px;
-                    width: 100%;
+                    border: 1px solid $violet !important;
                     filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+                    border-radius: $radius;
+                    display: flex;
+                    .fieldstyle{
+                        border-radius: $radius;
+                        background-color:$white;
+                        padding: 5px 10px;
+                        border: none;
+                        height: 44px;
+                        width: calc(100% - 50px);
+                        font-size: 14px;
+                    }
+                    .submitbtn{
+                        width: 50px;
+                        height:44px;
+                        background: url(../../assets/images/arrow-btn.png) center center no-repeat;
+                    }
                 }
+            }
             }
         }
     }
