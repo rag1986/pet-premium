@@ -35,7 +35,7 @@
     }
     .planbox {
         margin-top: 15px;
-        padding: 0 33px;
+        padding: 0 15px 10px 15px;
         background-color: $white;
         h4 {
             font-weight: 700;
@@ -59,7 +59,7 @@
                 .listleft{
                     width: 50%;
                     font-weight: 400;
-                    font-size: 14px;
+                    font-size: 13px;
                     line-height: 21px;
                     font-family: $fontfamily;
                 }

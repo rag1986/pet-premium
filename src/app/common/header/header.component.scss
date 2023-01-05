@@ -1,15 +1,16 @@
 @import '../../../variable.scss';
 
 
-
+.header{
+    background-color: $white;
 .headersection{
     width: 100%;
-    background-color: $white;
-    padding: 7px 30px ;
+    padding: 7px 5px ;
     .headerin{
         width: 100%;
         
         .logo{
         }
     }
+}
 }

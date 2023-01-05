@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./insurance-info.component.scss']
 })
 export class InsuranceInfoComponent {
-
+  panelOpenState = false;
 }

@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./enroll-review.component.scss']
 })
 export class EnrollReviewComponent {
-
+  panelOpenState = false;
 }
