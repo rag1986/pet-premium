@@ -1,0 +1,235 @@
+@import "../../variable.scss";
+
+.quotesec {
+    padding: 15px 0;
+    .quotehead {
+        border-radius: $radius;
+        display: flex;
+        justify-content: space-between;
+        background-color: $white;
+        align-items: center;
+        .box{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .emailbox {
+            margin: 5px;
+            background: #f1f5f9;
+            box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.160784);
+            border-radius: 4px;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            .emailboxleft {
+                padding: 0 3px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 7px;
+                p {
+                    font-weight: 500;
+                    font-size: 10px;
+                    line-height: 5px;
+                    font-family: $fontfamily;
+                    color: $violet;
+                    margin: 0;
+                }
+                a {
+                    font-weight: 500;
+                    font-size: 10px;
+                    line-height: 10px;
+                    font-family: $fontfamily;
+                    color: $primary_color;
+                    text-decoration: none;
+                }
+            }
+            .emailboxright {
+                background-color: $violet;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0 3px;
+                border-radius: 0 2px 2px 0;
+            }
+        }
+        .sortbox {
+            background: #f1f5f9;
+            box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.160784);
+            border-radius: 2px;
+            margin: 5px;
+            height: 50px;
+            
+        }
+        .filterbox {
+            background-color: $violet;
+            display: flex;
+            box-shadow: -4px 0px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 2px;
+            padding: 14px 12px;
+        }
+    }
+    .headerdetails{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        box-shadow: 0px 3px 3px rgb(0 0 0 / 16%);
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 10px;
+        .headleft{
+       width: 60px;
+        }
+        .headright{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: calc(100% - 60px);
+            h4{
+                margin: 0;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                font-family: $fontfamily;
+            color: #000000;}
+            p{
+                margin: 0;
+                font-family: $fontfamily;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+            color: #000;}
+        }
+
+        .overright {
+            width: 60px;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
+            .edit {
+                font-weight: 500;
+                font-size: 10px;
+                line-height: 15px;
+                color: $violet;
+                font-family: $fontfamily;
+                
+            }
+        }
+    }
+    .quotecenter {
+        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.160784);
+        border-radius: $radius;
+        background-color: $white;
+        margin: 15px 0;
+        padding: 10px;
+        .accbox {
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 9px;
+            font-family: $fontfamily;
+            color: $primary_color;
+            background-color: #84cc16;
+            width: fit-content;
+            padding: 3px;
+            box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.160784);
+            border-radius: 2px;
+        }
+        .quoteimg {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+            p {
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 27px;
+                font-family: $fontfamily;
+                color: $violet;
+                margin: 0;
+            }
+        }
+        .quoteselect{
+            padding: 15px 0 0px 0;
+            width: 100%;
+            .quotebox{
+                width: 100%;
+                display: flex;
+                gap: 10px;
+                padding: 5px 0;
+                .left{
+                    width: 50%;
+                }
+                .right{
+                    width: 50%;
+                }
+            }
+
+            .bottom_list{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                align-items: center;
+                padding: 10px 0;
+                p{margin: 0; font-size: 12px;}
+                a{color: #004FA9;font-size: 12px;}
+            }
+        }
+    }
+    .quote-footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .left{
+           display: flex;
+           flex-direction: column;
+           align-items: flex-end; 
+           p{
+            margin: 0;
+            font-size: 14px;
+            color: #000000;
+            &.price{
+                font-size: 14px;
+                color: #000;
+                font-weight: 500;
+                display: flex;
+                align-items: center;
+                span{
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #03A700;
+                    padding-left: 5px;
+                }
+            }
+           }
+        }
+
+        .buttonstyle{
+            color: #fff;
+            background: #702C90;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 10px 0;
+            border-radius: 5px;
+            width: 120px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .quotesec{
+        .quotehead{
+            flex-direction: column;
+            padding: 5px 10px;
+            .emailbox{width: 100%;
+                .emailboxright{
+                    padding: 0 15px;
+                }}
+            .box{width: 100%;}
+            .sortbox{width: 100%; margin-left: 0;}
+        }
+    }
+}
