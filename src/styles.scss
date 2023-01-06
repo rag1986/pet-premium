@@ -150,3 +150,101 @@ p, a, h1,  h2, h3, h4, h5, h6{
         }
     }
 }
+
+
+.quotesec{
+    .quotehead{
+        .sortbox{
+            .mdc-text-field--filled:not(.mdc-text-field--disabled){
+                background: none;
+            }
+            .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-line-ripple::before{
+                border-bottom: none;
+            } 
+            .mat-mdc-form-field-subscript-wrapper{
+                height: 0;
+            } 
+            .mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label{
+                color: #702C90;
+            }
+            .mat-mdc-form-field-infix {
+                min-height: 40px;
+            }
+            .mat-mdc-text-field-wrapper:not(.mdc-text-field--outlined) .mat-mdc-form-field-infix {
+                padding-top: 23px;
+                padding-bottom: 0;
+            }
+            .mdc-text-field--filled .mdc-line-ripple::after{
+                border: none;
+                height: 0;
+            }
+            .mat-mdc-form-field-infix{
+                width: 100%;
+            }
+            .mat-mdc-select-value-text{
+                font-size: 12px;
+                 font-weight: 600;
+            }
+            .mat-mdc-option .mdc-list-item__primary-text{
+                font-size: 12px !important;
+                font-weight: 600;
+            }
+            .mdc-text-field{
+                padding: 0 6px;  
+            }
+            .mat-mdc-form-field{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.selectbox{
+.mdc-text-field{
+    padding: 0 8px; 
+} 
+.mat-mdc-text-field-wrapper {
+    width: 100%;
+}
+.mat-mdc-form-field-subscript-wrapper{
+    display: none;
+}
+.mat-mdc-form-field-infix{
+    width: 100%;
+    min-width: 0;
+}
+.mat-mdc-form-field{
+    width: 100%;
+}
+.mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: #F1F5F9;
+    .mdc-line-ripple::before{
+      border: none;  
+    }
+}
+.mdc-text-field{
+    border-radius: 4px;
+}
+
+.mat-mdc-text-field-wrapper:not(.mdc-text-field--outlined) .mat-mdc-form-field-infix{
+    padding-top: 27px; 
+}
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label {
+    color: #000;
+    font-weight: 500;
+}
+
+
+}
+
+.bottom_list{
+    .mat-mdc-checkbox-touch-target{
+        height: 25px;
+        width: 25px;
+    }
+    .mat-mdc-checkbox label{
+        color: #000;
+        font-weight: 500;
+        padding-left: 0;
+    }
+}
