@@ -15,6 +15,8 @@ import { MaterialModule } from './modules/material.module';
 import { ErrorComponent } from './error/error.component';
 import { EnrollReviewComponent } from './enroll-review/enroll-review.component';
 import { CompareComponent } from './compare/compare.component';
+import { QuotePopupComponent } from './quote-popup/quote-popup.component';
+import { FilterComponent } from './filter/filter.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { CompareComponent } from './compare/compare.component';
     PaymentFailedComponent,
     ErrorComponent,
     EnrollReviewComponent,
-    CompareComponent
+    CompareComponent,
+    QuotePopupComponent,
+    FilterComponent
   ],
   imports: [
     BrowserModule,
