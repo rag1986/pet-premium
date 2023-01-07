@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import {MatDialog, MatDialogRef} from '@angular/material/dialog';
 import { EditWarningComponent } from '../edit-warning/edit-warning.component';
+import { FilterComponent } from '../filter/filter.component';
 
 @Component({
   selector: 'app-quote',
@@ -18,10 +19,17 @@ export class QuoteComponent {
 
  openDialog(enterAnimationDuration: string, exitAnimationDuration: string): void {
    this.dialog.open(EditWarningComponent, {
-     width: '320px',
+     width: '90%',
      enterAnimationDuration,
      exitAnimationDuration,
    });
- }
+   
+
+   
+
+
+ };
+
+
 
 }

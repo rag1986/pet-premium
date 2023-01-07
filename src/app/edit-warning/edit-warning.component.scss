@@ -1,0 +1,29 @@
+@import '../../variable.scss';
+
+
+.searchbtm{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding: 0 15px 15px 15px;
+    .cancelbtn{
+        text-decoration: underline;
+        font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+font-family: $fontfamily;
+color: $primary_color;
+    }
+    .proceedbtn{
+        background: #FFB800;
+box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.160784);
+border-radius: $radius;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+padding: 8px 16px;
+font-family: $fontfamily;
+    }
+
+}

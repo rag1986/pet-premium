@@ -17,6 +17,10 @@ import { EnrollReviewComponent } from './enroll-review/enroll-review.component';
 import { CompareComponent } from './compare/compare.component';
 import { QuotePopupComponent } from './quote-popup/quote-popup.component';
 import { FilterComponent } from './filter/filter.component';
+import { QuoteComponent } from './quote/quote.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { EditWarningComponent } from './edit-warning/edit-warning.component';
+import { PlandetailsComponent } from './plandetails/plandetails.component';
 
 @NgModule({
   declarations: [
@@ -32,13 +36,18 @@ import { FilterComponent } from './filter/filter.component';
     EnrollReviewComponent,
     CompareComponent,
     QuotePopupComponent,
-    FilterComponent
+    FilterComponent,
+    QuoteComponent,
+    EditWarningComponent,
+    PlandetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
