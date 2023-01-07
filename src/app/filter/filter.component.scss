@@ -4,6 +4,7 @@
     border: 1px solid $primary_color;
     border-radius: 8px;
     background-color: $white;
+    margin-top: 10px;
     .filterhead {
         background-color: #b1f1ff;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -38,9 +39,10 @@
             font-size: 18px;
             line-height: 27px;
             font-family: $fontfamily;
+            color: #000;
         }
         .covlistin {
-            padding: 10px 0;
+            padding: 5px 0;
 
             .covlistleft {
             }
@@ -48,13 +50,8 @@
     }
 
     .categorybox {
-        padding: 0 15px 20px;
-        .planhd {
-            font-weight: 600;
-            font-size: 18px;
-            line-height: 27px;
-            font-family: $fontfamily;
-        }
+        padding: 25px 15px 20px;
+        text-align: center;
         .abox {
             display: flex;
             flex-direction: column;
@@ -73,6 +70,8 @@
                 padding: 8px 10px;
                 width: fit-content;
                 color: $primary_color;
+                border: 1px solid #fff;
+                box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.160784);
             }
             .a_only {
                 font-weight: 500;
@@ -86,6 +85,32 @@
                 padding: 8px 10px;
                 width: fit-content;
                 color: $primary_color;
+            }
+        }
+        .pricefilter{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            .example-label-container{
+                width: 100%;
+                justify-content: space-between;
+                display: flex;
+                .name-label{
+                    color: #000;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .flterselect{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            margin-top: 20px;
+            .selectbox{
+                .box{
+              margin-top: 10px;
+                }
             }
         }
     }

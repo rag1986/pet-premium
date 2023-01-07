@@ -17,12 +17,10 @@ import { EnrollReviewComponent } from './enroll-review/enroll-review.component';
 import { CompareComponent } from './compare/compare.component';
 import { QuotePopupComponent } from './quote-popup/quote-popup.component';
 import { FilterComponent } from './filter/filter.component';
-import { PlanDetailsCComponent } from './plan-details-c/plan-details-c.component';
-import { PlanDetailsNComponent } from './plan-details-n/plan-details-n.component';
-import { PlanDetailsAComponent } from './plan-details-a/plan-details-a.component';
 import { QuoteComponent } from './quote/quote.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { EditWarningComponent } from './edit-warning/edit-warning.component';
+import { PlandetailsComponent } from './plandetails/plandetails.component';
 
 @NgModule({
   declarations: [
@@ -39,11 +37,9 @@ import { EditWarningComponent } from './edit-warning/edit-warning.component';
     CompareComponent,
     QuotePopupComponent,
     FilterComponent,
-    PlanDetailsCComponent,
-    PlanDetailsNComponent,
-    PlanDetailsAComponent,
     QuoteComponent,
-    EditWarningComponent
+    EditWarningComponent,
+    PlandetailsComponent
   ],
   imports: [
     BrowserModule,

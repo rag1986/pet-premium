@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./filter.component.scss']
 })
 export class FilterComponent {
-
+  max = 100;
+  min = 0;
+  showTicks = true;
+  step = 1;
+  thumbLabel = true;
+  value = 0;
 }
