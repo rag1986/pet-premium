@@ -295,3 +295,7 @@ img{
 .mat-mdc-tab:not(.mat-mdc-tab-disabled).mdc-tab--active .mdc-tab__text-label {
     color: #fff;
 }
+
+.mdc-dialog__surface{
+    overflow-y: visible !important;  
+}
