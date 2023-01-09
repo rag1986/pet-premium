@@ -1,6 +1,17 @@
 @import '../../variable.scss';
 
-
+.close-btn{
+    background: rgb(255 255 255);
+    width: 36px;
+    height: 36px;
+    border-radius: 40px;
+    position: absolute;
+    right: 13px;
+    top: -37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .searchbtm{
     display: flex;
     justify-content: flex-end;
